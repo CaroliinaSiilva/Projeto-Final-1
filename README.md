@@ -1,8 +1,8 @@
 <h1>Turismo em Portugal</h1>
 
-> Ultima atualização - 18 de Maio de 2021
+> 📅  Ultima atualização - 18 de Maio de 2021
 
-## Contexto
+## 🗒️ Contexto
 
 No âmbito da unidade curricular Programação e Algoritmos II do 1.º ano do curso de Licenciatura de Comunicação e Design Multimédia, 2º semestre, sob orientação do docente João Orvalho, foi-nos solicitado a elaboração de um trabalho.
 
@@ -10,7 +10,7 @@ O contexto do nosso projeto aborda o tema do Turismo (particularmente em Portuga
 
 Com a composição deste projeto final podemos explorar e adquirir novos conhecimentos na área da programação.
 
-## Aplicação do repositorio
+## ❔  Aplicação do repositorio
 O projeto permite a recolha/exposição de vários dados nomeadamente:
 
 Como ter a noção da quantidade de dados de 2019?
@@ -39,7 +39,7 @@ Como aceder as especificações do hotel com 3 estrelas?
 
 Como aceder ao conjunto de dados relativos aos preços?
 
-## Fundamentação dos dados
+## 📖  Fundamentação dos dados
 
 A recolha de dados devidamente estruturados é crucial para o desenvolvimento do nosso projeto, no entanto grande parte dos dados encontrados tratam-se de dados com fraca qualidade e construídos indevidamente.
 
@@ -57,16 +57,16 @@ Para a elaboração da nossa base de dados, importamos ficheiros em CSV padrão 
 
 Departamo-nos com a falta de dados para a execução de exercício relativos á longitude e á latitude, por isso importamos mais dados que não pertencem só a Portugal.
 
-## Estrutura
+## 🧱  Estrutura
 #### Organização repositório:
 Dormidas nº estadia.json— contém dados relativos ao número de estadias turísticas no ano de 2019.
 alojamento2019.csv— contém dados relativos a alojamentos em 2019 na localidade de Águeda.
 Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
 
-## API’s usados – notas técnicas
+## 📉  API’s usados – notas técnicas
 Esta base de dados utilizada neste reportório foi grande parte retirada de dados.gov.pt, no entanto utilizamos também dados fornecidos pela Camara Municipal de Agueda.
 	
-## Dicionário de dados
+## 📕  Dicionário de dados
 
 <table>
 	<tr>
@@ -153,7 +153,7 @@ Esta base de dados utilizada neste reportório foi grande parte retirada de dado
 	
 </table>
 
-## Bibliografia
+## 🔎  Bibliografia
 https://dados.gov.pt/pt/
 https://dados.gov.pt/pt/datasets/r/b9b406ab-bc80-448f-8c47-406f66b4e48a
 https://dados.gov.pt/pt/datasets/r/029f7761-d427-404a-a639-a3eb1c83ffd8
