@@ -17,7 +17,7 @@ Como ter a noção da quantidade de dados de 2019?
 
 Como aceder ao tamanho da tabela de dados de 2019?
 
-Como aceder aos dados que pertecem a Portugal no ano de 2019?
+Como aceder aos dados que pertencem a Portugal no ano de 2019?
 
 Como aceder aos dados sobre os alojamentos de 2019 em Águeda?
 
@@ -27,35 +27,35 @@ Qual o número de atendimentos por ano no posto de Águeda?
 
 Qual a média de atendimento durante 10 anos?
 
-Como aceder aos ultimos 2 anos de atendimento?
+Como aceder aos últimos 2 anos de atendimento?
 
-Como aceder ao conjuto de dados relativos à taxa de ocupação?
+Como aceder ao conjunto de dados relativos à taxa de ocupação?
 
 Qual a soma do número de quartos ocupados?
 
 Qual a soma do número de camas ocupadas?
 
-Como aceder as expecificações do hotel com 3 estrelas?
+Como aceder as especificações do hotel com 3 estrelas?
 
-Como aceder ao conjunto de dadosrelativos aos preços?
-	
+Como aceder ao conjunto de dados relativos aos preços?
+
 ## Fundamentação dos dados
 
-A recolha de dados devidamente estruturados é crucial para o desenvolvimento do nosso projeto, no entanto grande parte dos dados encontrados tratam-se de dados com fraca qualidade e construídos indevidamente. 
+A recolha de dados devidamente estruturados é crucial para o desenvolvimento do nosso projeto, no entanto grande parte dos dados encontrados tratam-se de dados com fraca qualidade e construídos indevidamente.
 
 Posto isto, vimo-nos a ser obrigadas a proceder a uma limpeza dos dados, sendo que estes estavam em mau estado, por exemplo palavras em campos que deveriam ser numéricos e organização por tabela dos dados.
 
-Sobre o tema escolhido para este projeto foi realemente dificil encontrar dados que estivessem em formato padrão, o que seria muito benéfico para o bom desenvolvimento deste trabalho.
+Sobre o tema escolhido para este projeto foi realmente difícil encontrar dados que estivessem em formato padrão, o que seria muito benéfico para o bom desenvolvimento deste trabalho.
 
-Foi utlizando dois formatos de ficheiro, Json e CSV. O Json são representados como pares de valor-chave num formato semi-estruturado, este contém estruturas hierárquicas. O formato CSV são considerados semi-estruturadosnão mas não podem, naturalmente, representar dados hierárquicos ou relacionais.
+Foi utilizando dois formatos de ficheiro, Json e CSV. O Json são representados como pares de valor-chave num formato semiestruturado, este contém estruturas hierárquicas. O formato CSV são considerados semiestruturados, mas não podem, naturalmente, representar dados hierárquicos ou relacionais.
 
-No caso dos dados “Ano de Atendimento” estes foram importados através de sistema URL, a forma como estavam estruturados os dados fazia com que fosse impossível de ser lida em jupiter, para solucionar o nosso problema passamos á criação de um CSV padrão com os dados que queríamos utilizar corretamente organizados. aqui eles davam para ler mas nao estavao bem contruidos nao eram setandar.
+No caso dos dados “Ano de Atendimento” estes foram importados através de sistema URL, a forma como estavam estruturados os dados fazia com que fosse impossível de ser lida em jupiter, para solucionar o nosso problema passamos á criação de um CSV padrão com os dados que queríamos utilizar corretamente organizados.
 
-Sobre o tema escolhido para este projeto foi realemente dificil encontrar dados que estivessem em formato padrão, o que seria muito benéfico para o bom desenvolvimento deste trabalho.
+Sobre o tema escolhido para este projeto foi realmente difícil encontrar dados que estivessem em formato padrão, o que seria muito benéfico para o bom desenvolvimento deste trabalho.
 
-Para a elavoração da nossa base de dados, foi nos aconcelhado importarmos sempre dados que estivessem em CSV padrão, no entanto muitos dos dados encontrados estavam em outros formatos. Como por exemplo xlsx, para conseguirmos utilizar estes dados com base no ficheiro "copia de despesas media de turistas" criamos uma tabela ("preços") com os dados e não importamos diretamente o ficheiro.
+Para a elaboração da nossa base de dados, importamos ficheiros em CSV padrão e Json, no entanto muitos dos dados encontrados estavam em outros formatos, o que criou alguns problemas. Como por exemplo xlsx, para conseguirmos utilizar estes dados com base no ficheiro "copia de despesas media de turistas" criamos uma tabela ("preços") com os dados e não importamos diretamente o ficheiro.
 
-Departamo-nos com a falta de dados para a execução de exercicio relativos á longitude e á latitude, por isso importamos mais dados que não pertencem só a Portugal.
+Departamo-nos com a falta de dados para a execução de exercício relativos á longitude e á latitude, por isso importamos mais dados que não pertencem só a Portugal.
 
 ## Estrutura
 #### Organização repositório:
