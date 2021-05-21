@@ -13,6 +13,31 @@ Com a composição deste projeto final podemos explorar e adquirir novos conheci
 ## Aplicação do repositorio
 O projeto permite a recolha/exposição de vários dados nomeadamente:
 
+Como ter a noção da quantidade de dados de 2019?
+
+Como aceder ao tamanho da tabela de dados de 2019?
+
+Como aceder aos dados que pertecem a Portugal no ano de 2019?
+
+Como aceder aos dados sobre os alojamentos de 2019 em Águeda?
+
+Identificar a quais moradias se enquadram na categoria de motel?
+
+Qual o número de atendimentos por ano no posto de Águeda?
+
+Qual a média de atendimento durante 10 anos?
+
+Como aceder aos ultimos 2 anos de atendimento?
+
+Como aceder ao conjuto de dados relativos à taxa de ocupação?
+
+Qual a soma do número de quartos ocupados?
+
+Qual a soma do número de camas ocupadas?
+
+Como aceder as expecificações do hotel com 3 estrelas?
+
+Como aceder ao conjunto de dadosrelativos aos preços?
 	
 ## Fundamentação dos dados
 
@@ -42,7 +67,92 @@ Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda 
 Esta base de dados utilizada neste reportório foi grande parte retirada de dados.gov.pt, no entanto utilizamos também dados fornecidos pela Camara Municipal de Agueda.
 	
 ## Dicionário de dados
+
+<table>
+	<tr>
+		<td>Nome da coluna</td>
+		<td>Significado</td>
+		<td>Possiveis valores</td>
+	</tr>
+	<tr>
+		<td>dormidas</td>
+		<td>Conjunto de dados de como a informação foi extraída, acerca dos dados de dormidas de 2019</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>	
+		<td>dadosDormidas</td>
+		<td>Lista dos Dados de 2019</td>
+	</tr>
+	<tr>
+		<td>dados2019</td>
+		<td>Conjunto de dados sobre as informações de dormidas no ano 2019</td>
+	</tr>
+	<tr>
+		<td>tamanho_tabela_1</td>
+		<td>tamanho tabela dados 2019</td>
+	</tr>
+	<tr>
+		<td>rslt_dados2019</td>
+		<td>Dados de dormidas em Portugal no ano de 2019</td>
+	</tr>
+	<tr>
+		<td>dados</td>
+		<td>renomeação da tabela dados 2019</td>
+	</tr>
+	<tr>
+		<td>alojamento</td>
+		<td>alojamentos de 2019 de Águeda</td>
+	</tr>
+	<tr>
+		<td>rslt_alojamentos</td>
+		<td>moradias que se enquadram na categoria motel</td>
+	</tr>
+	<tr>
+		<td>“line”</td>
+		<td>visualização do ficheiro em formato de objeto</td>
+	</tr>
+	<tr>
+		<td>atendimentos</td>
+		<td>atendimentos por ano no posto de Águeda</td>
+	</tr>
+	<tr>
+		<td>media_ at</td>
+		<td>media de atendimentos durante 10 anos</td>
+	</tr>
+	<tr>
+		<td>ultimos_anos</td>
+		<td>últimos dois anos de atendimentos</td>
+	</tr>
+	<tr>
+		<td>“plt.show”</td>
+		<td>gráfico representante dos anos de atendimentos</td>
+	</tr>
+	<tr>
+		<td>ocupação</td>
+		<td>conjunto de dados relativos a taxas de ocupação</td>
+	</tr>
+	<tr>
+		<td>soma_quartos</td>
+		<td>soma dos quartos ocupados</td>
+	</tr>
+	<tr>
+		<td>soma_cama</td>
+		<td>soma das camas ocupados</td>
+	</tr>
+	<tr>
+		<td>estrelas_3</td>
+		<td>especificações do hotel com 3 estrelas</td>
+	</tr>
+	<tr>
+		<td>d_ocp</td>
+		<td>descrição da tabela “ocupação”</td>
+	</tr>
+	<tr>
+		<td>preços</td>
+		<td>conjunto de dados relativos aos preços</td>
 	
+</table>
+
 ## Bibliografia
 https://dados.gov.pt/pt/
 https://dados.gov.pt/pt/datasets/r/b9b406ab-bc80-448f-8c47-406f66b4e48a
