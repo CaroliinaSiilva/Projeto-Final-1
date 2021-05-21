@@ -12,6 +12,7 @@ Com a composição deste projeto final podemos explorar e adquirir novos conheci
 
 ## Aplicação do repositorio
 O projeto permite a recolha/exposição de vários dados nomeadamente:
+
 	
 ## Fundamentação dos dados
 
@@ -23,7 +24,7 @@ Sobre o tema escolhido para este projeto foi realemente dificil encontrar dados 
 
 Foi utlizando dois formatos de ficheiro, Json e CSV. O Json são representados como pares de valor-chave num formato semi-estruturado, este contém estruturas hierárquicas. O formato CSV são considerados semi-estruturadosnão mas não podem, naturalmente, representar dados hierárquicos ou relacionais.
 
-No caso dos dados “Ano de Atendimento” estes foram importados através de sistema URL, a formac como estavam estruturados os dados fazia com que fosse impossível de ser lida em jupiter, para solucionar o nosso problema passamos a criação de um CSV padrão com os dados que queríamos utilizar corretamente organizados.
+No caso dos dados “Ano de Atendimento” estes foram importados através de sistema URL, a forma como estavam estruturados os dados fazia com que fosse impossível de ser lida em jupiter, para solucionar o nosso problema passamos á criação de um CSV padrão com os dados que queríamos utilizar corretamente organizados. aqui eles davam para ler mas nao estavao bem contruidos nao eram setandar.
 
 Sobre o tema escolhido para este projeto foi realemente dificil encontrar dados que estivessem em formato padrão, o que seria muito benéfico para o bom desenvolvimento deste trabalho.
 
