@@ -41,6 +41,23 @@ Como aceder as especificações do hotel com 3 estrelas?
 
 Como aceder ao conjunto de dados relativos aos preços?
 
+Como aceder á tabela com dados que não apresentavam qualidade?
+
+Como desenvolver um gráfico relativamente á diferença de preços entre Lazer e Negócio?
+
+Como desenvolver um gráfico total de todos os dados?
+
+Como eliminar linhas com dados em falta?
+
+Como ordenar de forma descendente os dados?
+
+Como transformar os valores em strings?
+
+Como transformar colunas em valores strings?
+
+Como desenvolver um gráfico de coordenadas?
+
+
 ## 📖  Fundamentação dos dados
 
 A recolha de dados devidamente estruturados é crucial para o desenvolvimento do nosso projeto, no entanto grande parte dos dados encontrados tratam-se de dados com fraca qualidade e construídos indevidamente.
@@ -61,9 +78,12 @@ Departamo-nos com a falta de dados para a execução de exercício relativos á 
 
 ## 🧱  Estrutura
 #### Organização repositório:
-Dormidas nº estadia.json— contém dados relativos ao número de estadias turísticas no ano de 2019.
-alojamento2019.csv— contém dados relativos a alojamentos em 2019 na localidade de Águeda.
-Ano atendimento.csv— contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
+Dormidas nº estadia.json - contém dados relativos ao número de estadias turísticas no ano de 2019.
+alojamento2019.csv - contém dados relativos a alojamentos em 2019 na localidade de Águeda.
+Ano atendimento.csv - contém dados extraídos da Câmara Municipal de Águeda que nos fornece o número de atendimentos no posto Turismo do mesmo ao longo de 10 anos.
+list_Ocupação.json - contém dados relativos a taxa de ocupação de 4 hotéis com diferentes categorias.
+preços_1 - contém dados relativos a despesas turísticas tanto de lazer como de negócios, obtidas através de um inquérito realizado a 1393 hóspedes na cidade de Lisboa.
+dataset-lugares-publicos-lugares-turisticos.csv - contém diversos dados de regiões turísticas do mundo, particularmente coordenadas.
 
 ## 📉  API’s usados – notas técnicas
 Esta base de dados utilizada neste reportório foi grande parte retirada de dados.gov.pt, no entanto utilizamos também dados fornecidos pela Camara Municipal de Agueda.
@@ -84,74 +104,143 @@ Esta base de dados utilizada neste reportório foi grande parte retirada de dado
 	<tr>	
 		<td>dadosDormidas</td>
 		<td>Lista dos Dados de 2019</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>dados2019</td>
 		<td>Conjunto de dados sobre as informações de dormidas no ano 2019</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>tamanho_tabela_1</td>
 		<td>tamanho tabela dados 2019</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>rslt_dados2019</td>
 		<td>Dados de dormidas em Portugal no ano de 2019</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>dados</td>
 		<td>renomeação da tabela dados 2019</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>alojamento</td>
 		<td>alojamentos de 2019 de Águeda</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>rslt_alojamentos</td>
 		<td>moradias que se enquadram na categoria motel</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>“line”</td>
 		<td>visualização do ficheiro em formato de objeto</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>atendimentos</td>
 		<td>atendimentos por ano no posto de Águeda</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>media_ at</td>
 		<td>media de atendimentos durante 10 anos</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>ultimos_anos</td>
 		<td>últimos dois anos de atendimentos</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>“plt.show”</td>
 		<td>gráfico representante dos anos de atendimentos</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>ocupação</td>
 		<td>conjunto de dados relativos a taxas de ocupação</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>soma_quartos</td>
 		<td>soma dos quartos ocupados</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>soma_cama</td>
 		<td>soma das camas ocupados</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>estrelas_3</td>
 		<td>especificações do hotel com 3 estrelas</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>d_ocp</td>
 		<td>descrição da tabela “ocupação”</td>
+		<td>Inteiros</td>
 	</tr>
 	<tr>
 		<td>preços</td>
 		<td>conjunto de dados relativos aos preços</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>pgra_preços</td>
+		<td>Diferença de preços entre Lazer e Negócio</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>global_1</td>
+		<td>Diferença global de Lazer e Negócio</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>total</td>
+		<td>Total de todos os dados</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>renomeação_at</td>
+		<td>Renomeação das colunas devido a serem nomes estrangeiros</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>coordenadas</td>
+		<td>Renomeação das colunas das coordenadas</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>c_sl</td>
+		<td>Elimina as linhas com falta de dados nas colunas descritas</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>descendente</td>
+		<td>Ordenar de forma descendente os dados</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>string_value_1</td>
+		<td>Valores em strings</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>imgplot</td>
+		<td>Localização do Motel Alameda</td>
+		<td>Inteiros</td>
+	</tr>
+	<tr>
+		<td>df</td>
+		<td>colunas em  valores strings</td>
+		<td>Inteiros</td>
+		
 	
 </table>
 
